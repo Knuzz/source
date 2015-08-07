@@ -1,0 +1,47 @@
+/*
+WYSIWYG.css
+1.0
+*/
+
+.w-text > h2 {
+    margin-bottom: 10px;
+}
+
+.w-text > h3 {
+    
+}
+
+.w-text > h4 {
+    
+}
+
+.w-text > p {
+    margin-bottom: 10px;
+}
+
+.w-text > ul {
+    margin-bottom: 10px;
+}
+
+.w-text > ul > li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.w-text > table {
+    margin-bottom: 10px;
+    border-spacing: 5px;
+}
+.w-text > table > thead > tr > th,
+.w-text > table > tbody > tr > td {
+    padding: 5px 20px;
+    background-color: rgb(255,255,255);
+}
+.w-text > table > tbody > tr > td[colspan],
+.w-text > table > tbody > tr > td[rowspan] {
+    text-align: center;
+}
+
+.w-text > table> tbody > tr > td._taleft {
+    text-align: left;
+}
